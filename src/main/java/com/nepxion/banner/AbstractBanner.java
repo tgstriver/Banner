@@ -1,21 +1,13 @@
 package com.nepxion.banner;
 
-/**
- * <p>Title: Nepxion Banner</p>
- * <p>Description: Nepxion Banner</p>
- * <p>Copyright: Copyright (c) 2017-2050</p>
- * <p>Company: Nepxion</p>
- * @author Haojun Ren
- * @version 1.0
- */
-
-import java.io.InputStream;
-
+import com.taobao.text.util.RenderUtil;
 import org.apache.commons.io.IOUtils;
 
-import com.taobao.text.util.RenderUtil;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 public abstract class AbstractBanner {
+
     // Resource类
     protected Class<?> resourceClass;
 
@@ -28,7 +20,7 @@ public abstract class AbstractBanner {
     // 最终旗标文本
     protected String banner;
 
-    public AbstractBanner(Class<?> resourceClass, String resourceLocation, String defaultBanner) {
+    protected AbstractBanner(Class<?> resourceClass, String resourceLocation, String defaultBanner) {
         this.resourceClass = resourceClass;
         this.resourceLocation = resourceLocation;
         this.defaultBanner = defaultBanner;
@@ -37,16 +29,16 @@ public abstract class AbstractBanner {
     protected void initialize() {
         InputStream inputStream = null;
         String bannerText = null;
+
         try {
             if (resourceLocation != null) {
                 inputStream = resourceClass.getResourceAsStream(resourceLocation);
-                bannerText = IOUtils.toString(inputStream, BannerConstant.ENCODING_UTF_8);
+                bannerText = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
             }
         } catch (Exception e) {
 
         } finally {
-            banner = generateBanner(bannerText);
-
+            banner = this.generateBanner(bannerText);
             if (inputStream != null) {
                 IOUtils.closeQuietly(inputStream);
             }
@@ -57,7 +49,11 @@ public abstract class AbstractBanner {
         return banner;
     }
 
-    // 显示成非ansi模式
+    /**
+     * 显示成非ansi模式
+     *
+     * @return
+     */
     public String getPlainBanner() {
         return RenderUtil.ansiToPlainText(banner);
     }

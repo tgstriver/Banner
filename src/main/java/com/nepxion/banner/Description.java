@@ -1,24 +1,16 @@
 package com.nepxion.banner;
 
-/**
- * <p>Title: Nepxion Banner</p>
- * <p>Description: Nepxion Banner</p>
- * <p>Copyright: Copyright (c) 2017-2050</p>
- * <p>Company: Nepxion</p>
- * @author Haojun Ren
- * @version 1.0
- */
-
 public class Description {
+
     private String name;
     private String description;
     private int leftCellPadding = 0;
     private int rightCellPadding = 1;
-    
+
     public Description() {
-        
+
     }
-    
+
     public Description(String name, String description, int leftCellPadding, int rightCellPadding) {
         this.name = name;
         this.description = description;
