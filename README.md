@@ -1,14 +1,7 @@
 # Nepxion Banner
-[![Total lines](https://tokei.rs/b1/github/Nepxion/Banner?category=lines)](https://tokei.rs/b1/github/Nepxion/Banner?category=lines)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?label=license)](https://github.com/Nepxion/Banner/blob/master/LICENSE)  [![Maven Central](https://img.shields.io/maven-central/v/com.nepxion/banner.svg?label=maven%20central)](https://search.maven.org/artifact/com.nepxion/banner)  [![Javadocs](http://www.javadoc.io/badge/com.nepxion/banner.svg)](http://www.javadoc.io/doc/com.nepxion/banner)  [![Build Status](https://travis-ci.org/Nepxion/Banner.svg?branch=master)](https://travis-ci.org/Nepxion/banner)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/72d939847f8e49319e009776d9c77b9a)](https://www.codacy.com/project/HaojunRen/Banner/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nepxion/Banner&amp;utm_campaign=Badge_Grade_Dashboard)  [![Stars](https://img.shields.io/github/stars/Nepxion/Banner.svg?label=Stars&tyle=flat&logo=GitHub)](https://github.com/Nepxion/Banner/stargazers)  [![Stars](https://gitee.com/Nepxion/Banner/badge/star.svg)](https://gitee.com/nepxion/Banner/stargazers)
+Nepxion Banneræ˜¯ä¸€æ¬¾åŸºäºTaobao Textçš„æ——æ ‡ç”Ÿæˆå™¨
 
-Nepxion BannerÊÇÒ»¿î»ùÓÚTaobao TextµÄÆì±êÉú³ÉÆ÷
-
-## ÇëÁªÏµÎÒ
-Î¢ĞÅ¡¢¶¤¶¤¡¢¹«ÖÚºÅºÍÎÄµµ
-
-![](http://nepxion.gitee.io/docs/zxing-doc/Î¢ĞÅ-1.jpg)![](http://nepxion.gitee.io/docs/zxing-doc/¶¤¶¤-1.jpg)![](http://nepxion.gitee.io/docs/zxing-doc/¹«ÖÚºÅ-1.jpg)![](http://nepxion.gitee.io/docs/zxing-doc/ÎÄµµ-1.jpg)
-
-## ÒÀÀµ
+## ä¾èµ–
 
 ```xml
 <dependency>
@@ -18,12 +11,12 @@ Nepxion BannerÊÇÒ»¿î»ùÓÚTaobao TextµÄÆì±êÉú³ÉÆ÷
 </dependency>
 ```
 
-## Ê¾Àı
-Í¨¹ı´ËÍøÕ¾ÖÆ×÷Æì±êµÄÎÄ±¾ÎÄ¼ş£¬ÊÖ¹¤ÔÚÎÄ±¾ÎÄ¼şÀï´¦Àí³ÉÒ»¸öÆì±êÔªËØÕ¼µ¥ĞĞµÄ¸ñÊ½
+## ç¤ºä¾‹
+é€šè¿‡æ­¤ç½‘ç«™åˆ¶ä½œæ——æ ‡çš„æ–‡æœ¬æ–‡ä»¶ï¼Œæ‰‹å·¥åœ¨æ–‡æœ¬æ–‡ä»¶é‡Œå¤„ç†æˆä¸€ä¸ªæ——æ ‡å…ƒç´ å å•è¡Œçš„æ ¼å¼
 
-[http://patorjk.com/software/taag/#p=display&f=Soft&t=Nepxion](http://patorjk.com/software/taag/#p=display&f=Soft&t=Nepxion)
+[http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
-¾ßÌåÊµÏÖ
+å…·ä½“å®ç°
 ```java
 public class BannerTest {
     public static void main(String[] args) {
@@ -59,9 +52,7 @@ public class BannerTest {
 }
 ```
 
-ÔËĞĞ½á¹û
+è¿è¡Œç»“æœ
 
 ![](http://nepxion.gitee.io/docs/banner-doc/Banner.jpg)
 
-## Star×ßÊÆÍ¼
-[![Stargazers over time](https://starchart.cc/Nepxion/Banner.svg)](https://starchart.cc/Nepxion/Banner)

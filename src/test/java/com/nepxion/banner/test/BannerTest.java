@@ -30,6 +30,12 @@ public class BannerTest {
         System.out.println(logoBanner3.getBanner());
         System.out.println(logoBanner3.getPlainBanner());
 
+        LogoBanner logoBanner4 = new LogoBanner(BannerTest.class, "/com/nepxion/banner/resource/yyx-saas.txt",
+                "Welcome to YunYouXuan", 7, 5,
+                new Color[]{Color.red, Color.yellow, Color.cyan, Color.magenta, Color.green, Color.blue, Color.red}, false);
+        System.out.println(logoBanner4.getBanner());
+        System.out.println(logoBanner4.getPlainBanner());
+
         VersionBanner versionBanner = new VersionBanner(BannerTest.class,
                 "/com/nepxion/banner/resource/version.txt",
                 "Unknown Version");
